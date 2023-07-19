@@ -1,0 +1,30 @@
+html {
+    background-color: black;
+    color: white;
+  }
+  
+  div {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 7%;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    border: 5px solid white;
+  }
+
+  h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    size: 3rem;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  #quoteowner {
+    text-align: right;
+  }
