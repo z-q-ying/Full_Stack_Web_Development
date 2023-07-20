@@ -1,0 +1,33 @@
+/* Write your code here: */
+
+/* Group: Group h1 and h2 to blueviolet */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child: Set a DIRECT child to firebrick */
+
+.box > p {
+    color: firebrick;
+}
+
+/* Descendent: Set ALL descendents to a particular ancestor */
+/* <li> is a grandchild of the ancester */
+
+.box li {
+    color: blue;
+}
+
+/* Chaining: Apply where ALL selectors are ture */
+
+li.done {
+    color: green;
+}
+
+/* Combining combiners: selector selectorselector {} */
+/* Change "other items" to 0.5rem */
+
+ul p.done {
+    font-size: 0.5rem;
+}
