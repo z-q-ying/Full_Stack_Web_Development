@@ -97,5 +97,7 @@ Thumbs.db
 # Ignore Linux system files
 *~
 
-# Ignore PDF files
+# Ignore files of certain format
 *.pdf
+*.pptx
+
