@@ -1,0 +1,41 @@
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+body {
+    background-color: #F2E8C6;
+}
+
+h1 {
+    margin: 5%;
+    font-family: 'Happy Monkey', cursive;
+    text-shadow: 2px 0 #232931;
+    font-size: 5rem;
+    color: #4E6C50;
+}
+
+p {
+    font-size: 2rem;
+    color: #4E6C50;
+    font-family: 'Happy Monkey', cursive;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #4E6C50;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+}
