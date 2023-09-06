@@ -90,6 +90,7 @@ $jest/
 
 # Ignore all JSON files but do not ignore package.json
 !package.json
+!package-lock.json
 
 # Ignore Mac system files
 .DS_Store
