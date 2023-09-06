@@ -88,6 +88,9 @@ $jest/
 *.secret
 *.json
 
+# Ignore all JSON files but do not ignore package.json
+!package.json
+
 # Ignore Mac system files
 .DS_Store
 
