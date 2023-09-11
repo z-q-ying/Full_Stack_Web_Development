@@ -35,8 +35,9 @@ Make sure you have **Node.js** and npm installed on your machine. If not, you ca
 
 ## Demonstration
 
-If it is a weekday...
-![Alt text](<Screenshot 2023-09-11 at 2.36.36 PM.png>)
+### If it is a weekday...
+<img width="1920" alt="Screenshot 2023-09-11 at 2 36 36 PM" src="https://github.com/z-q-ying/full_stack_web_development/assets/116849653/a4f0395f-b75d-4622-b591-588b67169a3c">
 
-If it is a weekend...
-![Alt text](<Screenshot 2023-09-11 at 2.36.24 PM.png>)
+### If it is a weekend...
+<img width="1920" alt="Screenshot 2023-09-11 at 2 36 24 PM" src="https://github.com/z-q-ying/full_stack_web_development/assets/116849653/8d824e3e-8761-421d-aa74-aa11a38e1ee4">
+
