@@ -4,6 +4,11 @@ Below are some of my demos 🤩
 
 Feel free to check them out in the corresponding folders too 🗳️
 
+### [25.0 Weekday Warrior Project](https://github.com/z-q-ying/full_stack_web_development/tree/57bdbfbc8e0009a2ced0c64d5f5149afe896105f/25.0%20Weekday%20Warrior%20Project)
+Weekday Warrior is a user-friendly web application designed to add a touch of motivation and whimsy to your daily routine. Built on the robust **Express.js** framework and enhanced with the **Embedded JavaScript (EJS) templating** engine, this app serves a straightforward yet engaging web page that informs you whether it's a weekday or weekend. Based on the day type, it also offers tailored advice and displays a relatable image to either boost your productivity or encourage relaxation. Perfect for those who want a quick daily check-in, Weekday Warrior aims to add a little extra spark to your day.
+
+![Lec020_Embedded_JavaScript](https://github.com/z-q-ying/full_stack_web_development/assets/116849653/e30cda8e-4800-4347-bab7-80314fbdaf3c)
+
 ### [20.0 The Simon Game](https://github.com/z-q-ying/full_stack_web_development/tree/4fb96ea70b18fd9260da52673c8a683ece9ec5cc/20.0%20The%20Simon%20Game)
 The Simon Game offers players a colorful and engaging memory challenge where they must remember and repeat sequences of colors and sounds. Built upon key web development principles including **JavaScript**, **jQuery**, and **CSS animations**, the game focuses on utilizing **arrays**, **event listeners**, and **timing events** to provide an incrementally complex and addictive gameplay experience.
 
