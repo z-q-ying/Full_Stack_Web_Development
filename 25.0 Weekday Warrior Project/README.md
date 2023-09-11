@@ -36,8 +36,9 @@ Make sure you have **Node.js** and npm installed on your machine. If not, you ca
 ## Demonstration
 
 ### If it is a weekday...
-<img width="1920" alt="Screenshot 2023-09-11 at 2 36 36 PM" src="https://github.com/z-q-ying/full_stack_web_development/assets/116849653/a4f0395f-b75d-4622-b591-588b67169a3c">
+![Slide8](https://github.com/z-q-ying/full_stack_web_development/assets/116849653/17d2cc70-623b-46c7-89ea-813ae575ba0d)
 
 ### If it is a weekend...
-<img width="1920" alt="Screenshot 2023-09-11 at 2 36 24 PM" src="https://github.com/z-q-ying/full_stack_web_development/assets/116849653/8d824e3e-8761-421d-aa74-aa11a38e1ee4">
+![Slide7](https://github.com/z-q-ying/full_stack_web_development/assets/116849653/7ace8ff8-cc14-405b-b486-d98012b1f090)
+
 
