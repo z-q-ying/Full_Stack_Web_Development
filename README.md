@@ -4,6 +4,11 @@ Below are some of my demos 🤩
 
 Feel free to check them out in the corresponding folders too 🗳️
 
+### [25.3 Band Name Generator](https://github.com/z-q-ying/full_stack_web_development/tree/1cdc654d3e4f082d28af8c9efabf6ced451070c7/25.3%20Band%20Name%20Generator)
+Discover your next band name with the Band Name Generator! This web application, built primarily **using EJS for templating**, generates creative and random band names in an 'adjective + noun' format. With a simple click of a button, you can unveil a unique name that might just be the ticket to your band's success. The project also utilizes **Node.js**, **Express.js**, and **CSS** to deliver a seamless and engaging user experience.
+
+![band name generator demo](https://github.com/z-q-ying/full_stack_web_development/assets/116849653/140ab2d0-42fe-4f49-ba6d-4bfc0ebc4f0a)
+
 ### [25.0 Weekday Warrior Project](https://github.com/z-q-ying/full_stack_web_development/tree/6fef3360387827016aac2089190862e8dfcc9e72/25.0%20Weekday%20Warrior%20Project)
 Weekday Warrior is a user-friendly web application designed to add a touch of motivation and whimsy to your daily routine. Built on the robust **Express.js** framework and enhanced with the **Embedded JavaScript (EJS) templating** engine, this app serves a straightforward yet engaging web page that informs you whether it's a weekday or weekend. Based on the day type, it also offers tailored advice and displays a relatable image to either boost your productivity or encourage relaxation. Perfect for those who want a quick daily check-in, Weekday Warrior aims to add a little extra spark to your day.
 
