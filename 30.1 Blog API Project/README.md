@@ -18,6 +18,7 @@ This project is a **full-featured blog website** that allows users to perform **
 * [EJS](https://ejs.co/) - Templating engine for rendering views
 
 ## Demo
+![blog_api_demo](https://github.com/z-q-ying/full_stack_web_development/assets/116849653/269047e6-b5a3-4983-9c5d-38d2ac08aad6)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
