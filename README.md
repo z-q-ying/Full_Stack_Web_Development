@@ -4,6 +4,11 @@ Below are some of my demos 🤩
 
 Feel free to check them out in the corresponding folders too 🗳️
 
+### [30.1 Blog API Project](https://github.com/z-q-ying/full_stack_web_development/tree/770e4ffef80c03d76e7a73d272caab04f4dd0c95/30.1%20Blog%20API%20Project)
+Step into the world of backend development with the Blog API Project while brings the intricacies of **RESTful API design** to life. Leveraging **Express.js for server routing**, **Node.js for the runtime environment**, and **EJS for dynamic frontend rendering**, this project offers a full suite of features enabling users to **manage blog content through CRUD operations**. Real-time data interaction and a simulated in-memory database provide a strong foundation for understanding web development's server-side aspects. While presently harnessing **an in-memory data store**, plans for integrating a persistent database illustrate the project's readiness for scalability and real-world application.
+
+![blog_api_demo](https://github.com/z-q-ying/full_stack_web_development/assets/116849653/5a4d9a9b-1af8-4b3b-8559-fcac6107b9da)
+
 ### [25.3 Band Name Generator](https://github.com/z-q-ying/full_stack_web_development/tree/1cdc654d3e4f082d28af8c9efabf6ced451070c7/25.3%20Band%20Name%20Generator)
 Discover your next band name with the Band Name Generator! This web application, built primarily **using EJS for templating**, generates creative and random band names in an 'adjective + noun' format. With a simple click of a button, you can unveil a unique name that might just be the ticket to your band's success. The project also utilizes **Node.js**, **Express.js**, and **CSS** to deliver a seamless and engaging user experience.
 
