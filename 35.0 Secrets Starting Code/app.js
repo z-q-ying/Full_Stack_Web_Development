@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
+const encrypt = require("mongoose-encryption");
 
 const app = express();
 const port = 3000;
@@ -16,10 +17,13 @@ mongoose.connect("mongodb://localhost:27017/userDB", {
   useUnifiedTopology: true,
 });
 
-const userSchema = {
+const userSchema = new mongoose.Schema({
   email: String,
   password: String,
-};
+});
+
+const secret = "Thisisourlittlesecret.";
+userSchema.plugin(encrypt, { secret: secret, encryptedFields: ["password"] });
 
 const User = new mongoose.model("User", userSchema);
 
@@ -42,7 +46,7 @@ app.post("/register", function (req, res) {
   });
 
   newUser
-    .save()
+    .save() // encrypt the password
     .then(() => {
       res.render("secrets");
     })
@@ -56,22 +60,23 @@ app.post("/login", function (req, res) {
   const password = req.body.password;
 
   // check through the DB
-  User.findOne({ email: username }).then(
-    (foundUser) => {
-      if (foundUser) {
-        if (foundUser.password === password) {
-          res.render("secrets");
+  User.findOne({ email: username }) // decrypt the password
+    .then(
+      (foundUser) => {
+        if (foundUser) {
+          if (foundUser.password === password) {
+            res.render("secrets");
+          } else {
+            res.send("Wrong password");
+          }
         } else {
-          res.send("Wrong password");
+          res.send("No such user");
         }
-      } else {
-        res.send("No such user");
+      },
+      (err) => {
+        console.log(err);
       }
-    },
-    (err) => {
-      console.log(err);
-    }
-  );
+    );
 });
 
 app.listen(port, () => {
